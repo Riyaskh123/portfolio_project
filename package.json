@@ -1,7 +1,7 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "homepage": "",
+  "homepage": "https://riyaskh123.github.io/portfolio_project/",
   "description": "A clean and customizable ReactJS portfolio template for fellow developers. Credits to Jo Lienhoop!",
   "main": "electron.js",
   "repository": "https://github.com/taniyow/react-portfolio",
