@@ -1,0 +1,145 @@
+{
+    "basics": {
+        "name": "Muhammed Riyas",
+        "label": "Full Stack Software Engineer",
+        "email": "mohdyaseen.official@gmail.com",
+        "phone": "(+91) 755-8978583",
+        "picture": "profile2.jpg",
+        "x_title": "Hello, I'm",
+        "job1": "Software",
+        "job2": "Engineer",
+        "headings": ["App", "Full Stack", "Graphic","Web"],
+        "ljoba" : ["Developer", "Developer", "Designer","Developer"],
+        "description": "Hello, Muhammed Riyas, software engineer and web developer! It's fantastic to meet you. I share your enthusiasm for web development and love tackling new challenges. Just like Markdown, I'm here to assist you in creating beautifully formatted websites. If you ever need any help or guidance, feel free to ask!.",
+        "summary": "based in Dubai, UAE.",
+        "keywords": "personal,website,portfolio,template,india,riyas,muhammed,alameen,mernstack,mern,merndeveloper,mhdyaseen,riyaskh123,muhammed riyas,webdev,web,developer,kerala,aluva,dubai,react,github,linkedin,google,gitlab,telegram,material,design,ui,webapp,markdown",
+        "url": "http://mhdriyas.tech/",
+        "location": {
+            "address": "Kattuparambil house Asokapuram",
+            "postalCode": "683547",
+            "city": "Ernakulam",
+            "country": "India",
+            "countryCode": "IN",
+            "region": "South"
+        },
+        "profiles": [
+            {
+                "network": "Google",
+                "username": "riyaskh123@gmail.com",
+                "url": "mailto:riyaskh123@gmail.com",
+                "x_icon": "fas fa-envelope"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Muhammed Riyas K H",
+                "url": "https://www.linkedin.com/in/muhammed-riyas-k-h-a3778618a/",
+                "x_icon": "fab fa-linkedin-in"
+            },
+            {
+                "network": "GitHub",
+                "username": "Riyaskh123",
+                "url": "https://github.com/Riyaskh123",
+                "x_icon": "fab fa-github"
+            },
+            {
+                "network": "Instagram",
+                "username": "mhd__riyas_111",
+                "url": "https://www.instagram.com/mhd__riyas_111/",
+                "x_icon": "fab fa-instagram"
+            }
+        ]
+    },
+    "work": [
+        {
+            "company": "Company",
+            "position": "President",
+            "website": "http://company.com",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description...",
+            "highlights": ["Started the company"]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Tinkerhub",
+            "position": "CampusLead",
+            "website": "https://tinkerhub.org/",
+            "startDate": "2022-01-01",
+            "endDate": "2023-04-01",
+            "summary": "Description...",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Alameen College",
+            "area": "Computer Application",
+            "studyType": "Bachelor",
+            "startDate": "2020-10-25",
+            "endDate": "2023-04-01",
+            "gpa": "8.0",
+            "courses": ["BCA - computer application"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "website": "http://publication.com",
+            "summary": "Description..."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Design",
+            "level": "Master",
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": ["Nodejs", "Reactjs", "Javascript", "Expressjs", "MongoDB"]
+        },
+        {
+            "name": "App Development",
+            "level": "Master",
+            "keywords": ["Android", "IOS", "Flutter"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "Malayalam",
+            "fluency": "Native speaker"
+        },
+        {
+            "language": "English",
+            "fluency": "Fluent speaker"
+        },
+        {
+            "language": "Tamil",
+            "fluency": "Good knowledge"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Reading",
+            "keywords": ["Thinker", "Unicorns"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Muhammed Riyas",
+            "reference": "Reference..."
+        }
+    ]
+}
