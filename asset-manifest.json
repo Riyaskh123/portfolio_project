@@ -1,23 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.e5a85ccb.css",
-    "main.js": "/static/js/main.c0181163.js",
+    "main.js": "/static/js/main.524a01c0.js",
     "static/js/3.0b699837.chunk.js": "/static/js/3.0b699837.chunk.js",
     "static/media/Profile2.png": "/static/media/Profile2.ab04e22b5e620fcd509c.png",
     "static/media/AISSPACE.png": "/static/media/AISSPACE.bdd61a09c6d69c45597b.png",
     "static/media/ectroautos.png": "/static/media/ectroautos.99fa497db71869c3a66d.png",
     "static/media/digifygarden.png": "/static/media/digifygarden.7cc8f2cdaa55f1f63c50.png",
+    "static/media/LIfe Care 002.jpg": "/static/media/LIfe Care 002.af1aac6ecfc1405f23c8.jpg",
+    "static/media/biriyani mix 8x8.jpg": "/static/media/biriyani mix 8x8.542cc7363bbfe582d67d.jpg",
     "static/media/cargarage.png": "/static/media/cargarage.2a6101133deef02a846a.png",
     "static/media/aonerentals.png": "/static/media/aonerentals.f66912b8269a86a78dee.png",
+    "static/media/GNM.jpg": "/static/media/GNM.889af011f22d741f28ab.jpg",
+    "static/media/vbvbvb.jpg": "/static/media/vbvbvb.8244ac014e593dd19129.jpg",
+    "static/media/ablaze rate card Print.jpg": "/static/media/ablaze rate card Print.69b1beb6b28c6d5164bf.jpg",
+    "static/media/marketing poster 1.jpg": "/static/media/marketing poster 1.53790339f9572c9cb469.jpg",
+    "static/media/nurse4.jpg": "/static/media/nurse4.c0767674a6be3681c7aa.jpg",
+    "static/media/women cell self defence.jpg": "/static/media/women cell self defence.f27fe5d25332246ae892.jpg",
+    "static/media/marhabatravels2.jpg": "/static/media/marhabatravels2.6d74a44757209b896e62.jpg",
+    "static/media/marhabatravels3.jpg": "/static/media/marhabatravels3.0ebc39e2b3184ff0f164.jpg",
     "static/media/Profile9.png": "/static/media/Profile9.13390c9b68778f5f74eb.png",
     "static/media/CV MUHAMMED RIYAS SOFTWARE ENGINEER 2024 ___.pdf": "/static/media/CV MUHAMMED RIYAS SOFTWARE ENGINEER 2024 ___.4a8f10365f061eb1f8be.pdf",
     "index.html": "/index.html",
     "main.e5a85ccb.css.map": "/static/css/main.e5a85ccb.css.map",
-    "main.c0181163.js.map": "/static/js/main.c0181163.js.map",
+    "main.524a01c0.js.map": "/static/js/main.524a01c0.js.map",
     "3.0b699837.chunk.js.map": "/static/js/3.0b699837.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5a85ccb.css",
-    "static/js/main.c0181163.js"
+    "static/js/main.524a01c0.js"
   ]
 }
