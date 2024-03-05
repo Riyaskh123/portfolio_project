@@ -172,8 +172,8 @@ export const Works = () => {
           <ImageList
             variant="masonry"
             cols={md ? 4 : 2}
-            style={{ width: md ? '90vw' : '70vw',zIndex:0 }}
-            rowHeight={md? 300 : 250}
+            style={{ width: md ? '90vw' : '70vw',zIndex:-1 }}
+            rowHeight={md? 300 : 150}
           >
             {designs.map((project) => (
               <ImageListItem key={project.img}>
