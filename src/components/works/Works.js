@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { useState } from "react";
-import { Container, Dialog, ImageList, ImageListItem, useMediaQuery, useTheme } from "@material-ui/core";
+import { Box, Container, Dialog, ImageList, ImageListItem, useMediaQuery, useTheme } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import { TextDecrypt } from "../content/TextDecrypt";
 
@@ -44,54 +44,54 @@ const useStyles = makeStyles((theme) => ({
 export const Works = () => {
   const classes = useStyles();
   const [toggleValue, setToggleValue] = useState("Software")
-  const [dialogOpen,setDialogOpen]= useState(false)
-  const [seletedimage,setSelectedImage] = useState()
+  const [dialogOpen, setDialogOpen] = useState(false)
+  const [seletedimage, setSelectedImage] = useState()
 
   const theme = useTheme()
   const md = useMediaQuery(theme.breakpoints.up('md'))
 
   const designs = [
     {
-      id:1,
-      img:img1
+      id: 1,
+      img: img1
     },
     {
-      id:2,
-      img:img2
+      id: 2,
+      img: img2
     },
     {
-      id:3,
-      img:img3
+      id: 3,
+      img: img3
     },
     {
-      id:4,
-      img:img4
+      id: 4,
+      img: img4
     },
     {
-      id:5,
-      img:img5
+      id: 5,
+      img: img5
     },
     {
-      id:6,
-      img:img6
+      id: 6,
+      img: img6
     },
     {
-      id:7,
-      img:img7
+      id: 7,
+      img: img7
     },
     {
-      id:8,
-      img:img8
+      id: 8,
+      img: img8
     },
     {
-      id:9,
-      img:img9
+      id: 9,
+      img: img9
     },
     {
-      id:10,
-      img:img10
+      id: 10,
+      img: img10
     },
-    
+
   ]
 
   const [projects, setProjects] = useState([
@@ -147,8 +147,8 @@ export const Works = () => {
         onChange={(e, newValue) => { console.log(newValue); setToggleValue(newValue) }}
         style={{ justifyContent: 'center', width: "100vw" }}
       >
-          <ToggleButton value="Software">{md ? 'Softwares & Web Apps' : <Apps/>}</ToggleButton>
-          <ToggleButton value="Graphics">{md ? 'Graphics Design' : <Brush/>}</ToggleButton>
+        <ToggleButton value="Software">{md ? 'Softwares & Web Apps' : <Apps />}</ToggleButton>
+        <ToggleButton value="Graphics">{md ? 'Graphics Design' : <Brush />}</ToggleButton>
       </ToggleButtonGroup>
       {toggleValue === "Software" ?
         <Container component="main" className={classes.main} maxWidth="md">
@@ -168,23 +168,21 @@ export const Works = () => {
             </div>
           ))}
         </Container> :
-        <Container component="main" className={classes.main} maxWidth="md" style={{ display: 'flex', justifyContent: 'center' }}>
-          <ImageList
-            variant="masonry"
-            cols={md ? 4 : 2}
-            style={{ width: md ? '90vw' : '70vw',zIndex:-1 }}
-            rowHeight={md? 300 : 150}
-          >
-            {designs.map((project) => (
-              <ImageListItem key={project.img}>
-                <img src={project.img} alt={project.alter} onClick={()=>{setSelectedImage(project.img); setDialogOpen(true); console.log("img Clicked");}}/>
-              </ImageListItem>
-            ))}
-          </ImageList>
-        </Container>
+        <ImageList
+          variant="masonry"
+          cols={md ? 4 : 2}
+          style={{ width: md ? '90vw' : '70vw', zIndex: -10,margin:"auto" }}
+          rowHeight={md ? 300 : 150}
+        >
+          {designs.map((project) => (
+            <ImageListItem key={project.img}>
+              <img src={project.img} alt={project.alter} onClick={() => { setSelectedImage(project.img); setDialogOpen(true); console.log("img Clicked"); }} />
+            </ImageListItem>
+          ))}
+        </ImageList>
       }
-      <Dialog open={dialogOpen} onClose={()=>setDialogOpen(false)} >
-        <img src={seletedimage} alt="dialog Image"/>
+      <Dialog open={dialogOpen} onClose={() => setDialogOpen(false)} >
+        <img src={seletedimage} alt="dialog Image" />
       </Dialog>
     </section>
   );

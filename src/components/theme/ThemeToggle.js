@@ -32,6 +32,7 @@ export const ThemeToggle = () => {
           onClick={toggleTheme}
           aria-label={"Toggle theme"}
           className={classes.iconButton}
+          style={{zIndex:10}}
         >
           {theme === "light" ? (
               <Brightness4 className={classes.icon} />

@@ -34,6 +34,7 @@ export const Resume = () => {
       target='_blank'
       rel='noopener noreferrer'
       className={classes.footerText}
+      style={{zIndex:10}}
     >
       <ResumeIcon />
       <Typography component='span'>

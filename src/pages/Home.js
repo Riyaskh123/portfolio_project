@@ -32,7 +32,7 @@ export const Home = () => {
         <LogoLink />
         <Content />
         <ThemeToggle />
-        <Hidden smDown>
+        <Hidden smDown >
           <SocialIcons />
         </Hidden>
         <Hidden mdUp>

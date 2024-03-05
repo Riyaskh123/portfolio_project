@@ -25,6 +25,7 @@ export const LogoLink = () => {
       title={Resume.basics.name}
       placement="right"
       TransitionComponent={Zoom}
+      style={{zIndex:10}}
     >
       <Link
           variant="h6"

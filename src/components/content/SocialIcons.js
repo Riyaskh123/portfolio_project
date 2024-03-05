@@ -31,16 +31,19 @@ export const SocialIcons = () => {
       rel='noopener noreferrer'
       underline='none'
       color='inherit'
+      
     >
       <Tooltip
         title={socialItem.username}
         placement='left'
         TransitionComponent={Zoom}
+        
       >
         <IconButton
           color='inherit'
           aria-label={socialItem.network}
           className={classes.iconButton}
+
         >
           <i className={`${classes.icon} ${socialItem.x_icon}`}></i>
         </IconButton>
@@ -48,5 +51,5 @@ export const SocialIcons = () => {
     </Link>
   ));
 
-  return <div className={classes.socialIcons}>{socialItems}</div>;
+  return <div className={classes.socialIcons} style={{zIndex:10}}>{socialItems}</div>;
 };
