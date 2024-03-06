@@ -13,6 +13,7 @@ import Aisspace from '../../assets/recentprojects/AISSPACE.png';
 import carGarage from '../../assets/recentprojects/cargarage.png';
 import Ectro from '../../assets/recentprojects/ectroautos.png';
 import digify from '../../assets/recentprojects/digifygarden.png';
+import oxium from '../../assets/recentprojects/oxium.png';
 
 import img1 from '../../assets/designportfoilo/marhabatravels2.jpg';
 import img2 from '../../assets/designportfoilo/GNM.jpg';
@@ -29,7 +30,7 @@ import img10 from '../../assets/designportfoilo/vbvbvb.jpg';
 
 
 import { ToggleButton, ToggleButtonGroup } from "@material-ui/lab";
-import { Apps, Brush } from "@material-ui/icons";
+import { Apps, Brush, Link } from "@material-ui/icons";
 
 
 
@@ -98,23 +99,37 @@ export const Works = () => {
     {
       id: 1,
       title: 'Aone Rentals',
+      description: `As a front-end developer at GeoCWorld, I played a crucial role in developing an admin application to control EV chargers using React.js.
+      My responsibilities included designing intuitive user interfaces, implementing key features, and optimizing performance for seamless user experiences.
+      Leveraging React.js and other front-end technologies, I overcame various challenges to deliver a robust solution that significantly improved the management of EV chargers.
+      My contributions directly impacted the project's success by enhancing functionality, increasing efficiency, and ultimately advancing sustainable transportation initiatives. 
+      This experience honed my skills in front-end development and reinforced the importance of user-centric design and performance optimization in web applications.`,
+      alter: 'GeoCWorld',
+      image: `${oxium}`,
+      link: 'https://cms.goecworld.com/',
+    },
+    {
+      id: 2,
+      title: 'Aone Rentals',
       description: `Built a tool rental management system with React frontend and PHP backend using MySQL for data storage. 
       Responsibilities included frontend development, backend logic implementation, and database management. 
       Demonstrated proficiency in React, PHP, MySQL, and full-stack web development.`,
       alter: 'Tools Management System',
       image: `${Aonerentals}`,
+      link:'https://aonerentals.in/'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Digify Garden',
       description: `Digify Garden is a platform through which colleges can easily make your garden digital and share it with students.
       This initiative helps colleges to display the data of a particular tree in their garden, which is readily available on this website
       and also helps students to participate in planting more trees and be more involved. Developed using PHP, Mysql `,
       alter: 'Digify garden',
       image: `${digify}`,
+      link:'https://digifygarden.com/'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Car Garage',
       description: `A Web base Application to Manage Garage for Car Garage, To Manage their vehicles.
       Developed using React js, Php, sql.`,
@@ -122,19 +137,21 @@ export const Works = () => {
       image: `${carGarage}`,
     },
     {
-      id: 4,
+      id: 5,
       title: 'AIS SPACE Website',
       description: `Designed and developed Dynamic website for Incubation center AIS SPACE
       with html,css, js, PHP, mysql.`,
       alter: 'AIS SPACE',
       image: `${Aisspace}`,
+      link:'https://aisspace.com/'
     },
     {
-      id: 5,
+      id: 6,
       title: 'Ectro Autos Products eCommerce',
       description: `website using React js, Firebase integrated, admin section has to add products and highlights. Backend developed using Node JS and Mysql. `,
       alter: 'Ectro utos',
       image: `${Ectro}`,
+      link:'https://www.ectroautos.com/'
     }
   ]);
 
@@ -164,6 +181,15 @@ export const Works = () => {
                 <p className="description">
                   {project.description}
                 </p>
+                {project.link && <a href={project.link} target="_blank" 
+                style={{color:'#fff',
+                textDecoration: "none",
+                display:"flex",
+                justifyContent:"start",
+                alignItems:'center'
+                }}>
+                  <Link/>URL
+                  </a>}
               </div>
             </div>
           ))}
