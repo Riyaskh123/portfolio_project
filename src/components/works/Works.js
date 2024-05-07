@@ -98,7 +98,7 @@ export const Works = () => {
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: 'Aone Rentals',
+      title: 'GeoCWorld',
       description: `As a front-end developer at GeoCWorld, I played a crucial role in developing an admin application to control EV chargers using React.js.
       My responsibilities included designing intuitive user interfaces, implementing key features, and optimizing performance for seamless user experiences.
       Leveraging React.js and other front-end technologies, I overcame various challenges to deliver a robust solution that significantly improved the management of EV chargers.
