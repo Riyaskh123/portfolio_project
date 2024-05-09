@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e5a85ccb.css",
-    "main.js": "/static/js/main.b086e989.js",
+    "main.js": "/static/js/main.379289df.js",
     "static/js/3.0b699837.chunk.js": "/static/js/3.0b699837.chunk.js",
     "static/media/Profile2.png": "/static/media/Profile2.ab04e22b5e620fcd509c.png",
     "static/media/oxium.png": "/static/media/oxium.962a63a7e8152c60e4c1.png",
@@ -24,11 +24,11 @@
     "static/media/CV MUHAMMED RIYAS SOFTWARE ENGINEER 2024 ___.pdf": "/static/media/CV MUHAMMED RIYAS SOFTWARE ENGINEER 2024 ___.4a8f10365f061eb1f8be.pdf",
     "index.html": "/index.html",
     "main.e5a85ccb.css.map": "/static/css/main.e5a85ccb.css.map",
-    "main.b086e989.js.map": "/static/js/main.b086e989.js.map",
+    "main.379289df.js.map": "/static/js/main.379289df.js.map",
     "3.0b699837.chunk.js.map": "/static/js/3.0b699837.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e5a85ccb.css",
-    "static/js/main.b086e989.js"
+    "static/js/main.379289df.js"
   ]
 }
